@@ -10,16 +10,19 @@ return {
 	{
 		"folke/snacks.nvim",
 		opts = {
+			config = {
+				trash = true,
+			},
 			picker = {
 				hidden = true,
 				ignored = true,
-				sources = {
-					explorer = {
-						layout = {
-							auto_hide = { "input" },
-						},
-					},
-				},
+				-- sources = {
+				-- 	explorer = {
+				-- 		layout = {
+				-- 			auto_hide = { "input" },
+				-- 		},
+				-- 	},
+				-- },
 				-- formatters = {
 				-- 	file = {
 				-- 		git_status_hl = true,
