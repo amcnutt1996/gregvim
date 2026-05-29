@@ -16,18 +16,23 @@ return {
 			picker = {
 				hidden = true,
 				ignored = true,
-				-- sources = {
-				-- 	explorer = {
-				-- 		layout = {
-				-- 			auto_hide = { "input" },
-				-- 		},
-				-- 	},
-				-- },
-				-- formatters = {
-				-- 	file = {
-				-- 		git_status_hl = true,
-				-- 	},
-				-- },
+				sources = {
+					select = {
+						layout = {
+							preset = "telescope",
+						},
+					},
+					-- 	explorer = {
+					-- 		layout = {
+					-- 			auto_hide = { "input" },
+					-- 		},
+					-- 	},
+					-- },
+					-- formatters = {
+					-- 	file = {
+					-- 		git_status_hl = true,
+					-- 	},
+				},
 			},
 		},
 	},
