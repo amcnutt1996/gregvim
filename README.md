@@ -1,5 +1,7 @@
 # GREGVIM
 
+<img width="641" height="668" alt="Screenshot 2026-05-30 at 12 57 17 PM" src="https://github.com/user-attachments/assets/bbddd16c-8f27-438d-b5d3-453c2f76374e" />
+
 My personal NeoVim Configuration.
 Feel free to steal it and make it better!
 
