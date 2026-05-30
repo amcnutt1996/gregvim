@@ -10,7 +10,7 @@ return {
 	{
 		"folke/snacks.nvim",
 		opts = {
-			config = {
+			explorer = {
 				trash = true,
 			},
 			picker = {
