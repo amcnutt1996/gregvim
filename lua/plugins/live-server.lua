@@ -1,3 +1,3 @@
 return {
-  { "barrettruth/live-server.nvim" },
+	{ "barrettruth/live-server.nvim", lazy = false },
 }

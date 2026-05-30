@@ -1,11 +1,9 @@
 return {
 	-- add custom color schemee here https://www.lazyvim.org/plugins/colorscheme
 	{
-		{
-			"LazyVim/LazyVim",
-			opts = {
-				colorscheme = "ayu-mirage",
-			},
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "ayu-dark",
 		},
 	},
 

@@ -1,3 +1,3 @@
 return {
-	{ "linux-cultist/venv-selector.nvim" },
+	{ "linux-cultist/venv-selector.nvim", lazy = false },
 }
