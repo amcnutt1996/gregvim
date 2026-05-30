@@ -11,7 +11,11 @@ On MacOS: `brew install neovim`
 
 **Make a backup** of your current Neovim config if you don't want to lose it!
 
-```zsh"
+```zsh
+# backup current files in config:
+mv ~/.config/nvim ~/.config/nvim.bak
+
+# remove files after backup for fresh install
 rm -rf ~/.local/share/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.cache/nvim
@@ -19,7 +23,23 @@ rm -rf ~/.cache/nvim
 
 Clone this repo:
 
-`git clone https://github.com/amcnutt1996/gregvim.git ~/.config/nvim/`
+```zsh
+git clone https://github.com/amcnutt1996/gregvim.git ~/.config/nvim/ && cd ~/.config/nvim
+```
+
+Delete my git files from the cloned repo if you want to make it your own:
+
+`rm -rf ~/.config/nvim/.git ~/.config/nvim/.gitignore`
+
+Start Neovim:
+
+`nvim`
+
+Let Lazy load all plugins then run health check
+
+`: checkhealth`
+
+`: LazyHealth`
 
 ## Loader
 
@@ -44,7 +64,7 @@ I added a few extra plugins and configurations too:
 Currently I use [Ghostty](https://ghostty.org/) as my main terminal.
 My ghostty config:
 
-```Text"
+```Text
 theme=Ayu
 font-family = "MonaSpace Neon Var"
 font-feature = feat off
